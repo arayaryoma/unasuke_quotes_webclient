@@ -1,0 +1,17 @@
+{
+  "name": "unasuke_quotes_webclient",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d lib"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.6.5",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "rimraf": "^2.5.2"
+  },
+  "dependencies": {
+    "axios": "^0.9.1"
+  }
+}
