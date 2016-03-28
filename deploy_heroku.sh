@@ -27,7 +27,7 @@ cp .tmp/package.json .tmp/app.js ./
 
 git add -A
 git commit -m "${COMMIT_REV}"
-git push heroku staging:master
+git push -f heroku staging:master
 
 git checkout ${BRANCH}
 
