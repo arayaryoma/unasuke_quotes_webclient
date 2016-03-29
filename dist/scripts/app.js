@@ -1,6 +1,6 @@
-var endpoint = 'http://localhost:3000';
+var endpoint = 'https://unasuke-quotes-webapi.herokuapp.com';
 var instance = axios.create({
-    "baseURL": "http://localhost:3000",
+    "baseURL": endpoint,
     "headers": {
         "Access-Control-Allow-Origin": "*"
     }
