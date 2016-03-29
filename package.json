@@ -12,6 +12,8 @@
     "rimraf": "^2.5.2"
   },
   "dependencies": {
-    "axios": "^0.9.1"
+    "axios": "^0.9.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0"
   }
 }
