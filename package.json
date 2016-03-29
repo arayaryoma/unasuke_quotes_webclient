@@ -2,7 +2,8 @@
   "name": "unasuke_quotes_webclient",
   "version": "0.0.1",
   "scripts": {
-    "build": "./node_modules/.bin/babel src -d lib"
+    "build": "./node_modules/.bin/babel src -d lib",
+    "start": "node app.js"
   },
   "devDependencies": {
     "babel-cli": "^6.6.5",
